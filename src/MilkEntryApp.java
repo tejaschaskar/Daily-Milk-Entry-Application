@@ -11,6 +11,7 @@ class MilkEntry {
         this.date = date;
         this.timeOfDay = timeOfDay;
         this.quantity = quantity;
+
     }
 
     public String getDate() {
@@ -27,7 +28,8 @@ class MilkEntry {
 
     @Override
     public String toString() {
-        return "Date: " + date + ", Time of Day: " + timeOfDay + ", Quantity: " + quantity;
+
+        return "Date: " + date+ ", Time of Day: " + timeOfDay + ", Quantity: " + quantity;
     }
 }
 
